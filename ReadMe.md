@@ -1,24 +1,37 @@
-# README
+## Ratio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###### Version 0.0.1
 
-Things you may want to cover:
+#### Overview
 
-* Ruby version
+Ratio is intended to run within an EKS cluster and expose metrics about capacity limits
+for an EKS cluster in AWS.
 
-* System dependencies
+#### Metrics
 
-* Configuration
+    cluster_pods_max integer gauge
+    cluster_pods_current integer gauge
+    cluster_pods_available integer gauge
+    
+    node_pods_max integer gauge
+    node_pods_available integer gauge
+    node_pods_current integer gauge
+    
+    cluster_sg_rules_available integer gauge
+    cluster_sg_rules_max integer gauge
+    cluster_sg_rules_current integer gauge
+    
+    vpc_ip_addresses_max integer gauge
+    vpc_ip_addresses_current integer gauge
+    vpc_ip_addresses_available integer gauge
 
-* Database creation
+#### Prerequisites
 
-* Database initialization
+1. Ruby 2.5.1
+2. MySQL (for local development)
 
-* How to run the test suite
+#### Packaging
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+#### Deployment
