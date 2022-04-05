@@ -32,7 +32,7 @@ end
 
 gem 'aws-sdk', '~> 3'
 
-gem 'kubeclient', '~> 4.4'
+gem 'kubeclient', '~> 4.9'
 
 gem 'responders', '2.4.1'
 
