@@ -768,7 +768,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     kubeclient (4.4.0)
       http (~> 3.0)
       recursive-open-struct (~> 1.0, >= 1.0.4)
